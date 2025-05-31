@@ -1,26 +1,16 @@
 #include <stdio.h>
 main() 
 {
-  
-// CONTATORE IN AVANTI PER ELIMINACODE 
- int i; 
- int n;
-
-  
-  i=0;
-  n=10;
+ int i=0; 
+ int n=10;
    while 
     (i<n)
     {
     	system("cls");
-	  printf("\n\n \t ADESSO SERVIAMO IL CLIENTE N." );  printf("%d ", i);
+	  printf("\n\n \t Serviamo il cliente numero " );  printf("%d ", i);
       getchar(); 
       i++;
 	}
-	  
-    		
-	 
-	 
 	 }
 	
     	
