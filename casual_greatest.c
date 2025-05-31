@@ -18,11 +18,11 @@ main() {
 	getchar();
 		/*Svolgimento, attraverso funzione IF del problema */
 	if(a>b) {
-		/*caso 1: a è maggiore di b*/
+		/*caso 1: a Ã¨ maggiore di b*/
 		printf("\n il numero maggiore e' ");
 		printf("%d",a);
 		}
-		/*caso 2: a è minore di b*/
+		/*caso 2: a Ã¨ minore di b*/
 		else;
 		if(a<b) {
 		printf("\ il numero maggiore e' ");
