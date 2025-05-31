@@ -5,8 +5,8 @@ main()
 // DICHIARAZIONE VARIABILI 
  
  int true;      // variabile per un CICLO INFINITO ( LOOP ) 
- int v;         // v è un NUMERO INTERO che indica il VOLUME 
- int t;         // t è un NUMERO INTERO che indica un tempo di RITARDO
+ int v;         // v Ã¨ un NUMERO INTERO che indica il VOLUME 
+ int t;         // t Ã¨ un NUMERO INTERO che indica un tempo di RITARDO
  char tasto;   //  variabile leggo di tipo char ( carattere ) che memorizza il tasto premuto; 
   
  // INIZIALIZZAZIONE VARIABILI
@@ -32,7 +32,7 @@ system ("cls");
 		while( t<100000 )
 		t++;
 		 
-		 if ( tasto == 43) // 43 è il codice ASCII del carattere "+"
+		 if ( tasto == 43) // 43 Ã¨ il codice ASCII del carattere "+"
          {
          v++;
          if (v>=100)
@@ -41,7 +41,7 @@ system ("cls");
 		   }
 		 }
             
-        if (tasto == 45)   // 45 è il codice ASCII del carattere "-"
+        if (tasto == 45)   // 45 Ã¨ il codice ASCII del carattere "-"
         {
           v--;
           if (v<=0)
