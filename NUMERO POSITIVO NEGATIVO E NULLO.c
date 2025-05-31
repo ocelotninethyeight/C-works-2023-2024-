@@ -8,24 +8,18 @@ main()
  while 
  (i<=10)
 	{
-	printf("\n\n \t ITERAZIONE N° " );
+	printf("\n\n \t Determinazione segno numero " );
 	printf("%d ", i);
-    printf("\n\n \t ORA INSERISCI UN NUMERO \n  n = ");	
+    printf("\n\n \t Inserisci un numero \n  n = ");	
     scanf("%d", &n);
-     // SCELTA CONDIZIONALE
-
     if (n > 0)
-     printf("IL NUMERO è positivo\n\n");
+     printf("il numero Ã¨ positivo\n\n");
     if (n < 0)
-    printf("IL NUMERO è negativo\n\n");
-    if (n == 0)printf("IL NUMERO è nullo\n\n");
-    // printf("FINE\n");
+    printf("il numero Ã¨ negativo\n\n");
+    if (n == 0)printf("il numero Ã¨ nullo\n\n");
     i++;
     }
-	//printf("\t premi un tasto per continuare......   \n");
-	//printf("\n"); 
-	getchar();
-	printf("\tGRAZIE...........Abbiamo finito       \n");
+	printf("\t Abbiamo finito \n");
 	//getchar();	
 	
 }
